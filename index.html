@@ -1,6 +1,20 @@
 <!DOCTYPE HTML>
 <html>
     <body>
-        <h1>Hello World.</h1>
-    </body>
+
+        <h3>Your Number</h3>
+        <h1><span id="myNumber">0</span></h1>
+        <br>
+        <button id="myButton">Click Me</button>
 </html>
+
+<script>
+    var increment = function() {
+        let currentElementValue = document.getElementById('myNumber').innerHTML;
+        let currentElementNumber = parseInt(currentElementValue, 10)
+        let newElementNumber = currentElementNumber + 1
+        document.getElementById('myNumber').innerHTML = newElementNumber;
+    }
+
+    document.getElementById('myButton').addEventListener('click', increment)
+</script>
