@@ -2,3 +2,17 @@ body {
     background-color: #030303;
     color: #F0F0F0;
 }
+
+.heading {
+    font-size: 150%;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.mainNumber {
+    font-size: 500%;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
