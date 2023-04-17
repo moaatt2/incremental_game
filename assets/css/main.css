@@ -4,14 +4,14 @@ body {
 }
 
 .heading {
-    font-size: 2vw;
+    font-size: 1.5vw;
     text-align: center;
     margin-top: 0%;
     margin-bottom: 0%;
 }
 
 .text {
-    font-size: 1.75vw;
+    font-size: 1vw;
     text-align: center;
     margin-top: 0%;
     margin-bottom: 0%;
@@ -49,6 +49,18 @@ body {
 @media screen and (max-width: 800px) {
     .centeredTable {
         width: 100%;
+    }
+
+    .mainNumber {
+        font-size: 20vw;
+    }
+
+    .heading {
+        font-size: 5vw;
+    }
+
+    .text {
+        font-size: 3vw;
     }
 }
 
