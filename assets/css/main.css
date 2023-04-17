@@ -50,6 +50,18 @@ body {
     .centeredTable {
         width: 100%;
     }
+
+    .mainNumber {
+        font-size: 20vw;
+    }
+
+    .heading {
+        font-size: 5vw;
+    }
+
+    .text {
+        font-size: 3vw;
+    }
 }
 
 
