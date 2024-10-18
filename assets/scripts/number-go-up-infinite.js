@@ -73,10 +73,10 @@ function addGenerator(generators) {
     let generatorTable = document.getElementById("generator-table-body");
 
     // Create, add and select new row
-    let el = document.createElement('tr')
-    el.setAttribute('id', `generator-${generators+1}`)
+    let el = document.createElement('tr');
+    el.setAttribute('id', `generator-${generators+1}`);
     generatorTable.appendChild(el);
-    let newRow = document.getElementById(`generator-${generators+1}`)
+    let newRow = document.getElementById(`generator-${generators+1}`);
 
     // Add records to new row
     newRow.innerHTML = `
@@ -87,8 +87,8 @@ function addGenerator(generators) {
     `
 
     // Add event listener to new buy button
-    let newBuy = document.getElementById(`tier_${generators+1}_buy`)
-    newBuy.addEventListener("click", function() {buy(generators+1)})
+    let newBuy = document.getElementById(`tier_${generators+1}_buy`);
+    newBuy.addEventListener("click", function() {buy(generators+1)});
 
     // Update max-generator
     document.getElementById('max-generator').innerHTML = (generators+1);
