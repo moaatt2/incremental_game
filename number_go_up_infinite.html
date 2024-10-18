@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Number Go Up(Infinite)</title>
+        <link rel="icon" href="assets/images/number_go_up_infinite_icon.png" type="image/x-icon">
+        <link rel="stylesheet" href="assets/css/main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+
+        <p class="heading">Your Number</p>
+        <b><p class="mainNumber", id="myNumber">0.0</p></b>
+        <br>
+
+        <div class="container">
+            <button id="myButton" class="centeredButton">
+                <p class="heading">Increase Number</p>
+            </button>
+        </div>
+
+
+        <br><br>
+        <p class="heading">Auto Clickers</p>
+        <br>
+
+        <table class="centeredTable" id="generator-table">
+            <tr>
+                <th><p class="text">Owned</p></th>
+                <th><p class="text">Cost</p></th>
+                <th><p class="text">Clicks per Second</p></th>
+                <th></th>
+            </tr>
+            <tr id="generator-1">
+                <td><p class="text" id="tier_1_owned">0</p></td>
+                <td><p class="text" id="tier_1_cost">10</p></td>
+                <td><p class="text">1</p></td>
+                <td><button id="tier_1_buy" disabled><p class="text">Buy</p></button></td>
+            </tr>
+        </table>
+
+        <div id="max-generator" style="display: none;">1</div>
+
+        <script src="assets/scripts/incremental.js"></script>
+    </body>
+</html>
