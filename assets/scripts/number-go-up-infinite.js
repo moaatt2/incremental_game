@@ -70,7 +70,7 @@ function updateButtons(generators) {
 
 // Add a new generator to the sheet
 function addGenerator(generators) {
-    let generatorTable = document.getElementById("generator-table");
+    let generatorTable = document.getElementById("generator-table-body");
 
     // Create, add and select new row
     let el = document.createElement('tr')
